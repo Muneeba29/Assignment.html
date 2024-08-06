@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<!-- saved from url=(0037)http://127.0.0.1:5500/assignment.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=&lt;device-width&gt;, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       
+        body {
+            background-image: url(https://editors-cdn.template.net/15.-Website-Gradient-Background.png-8b96bf05-fa54-4ba1-9ecf-dcb95f2a603e.png);
+        }
+
+        .para {
+            width: 900px;
+            height: 900px;
+        }
+
+        .main {
+            display: flex;
+            color: white;
+            margin-right: 40px;
+            margin-left: 40px;
+            justify-content: space-between;
+          
+        }
+
+        li {
+            display: inline;
+            margin-left: 10px;
+           
+
+        }
+
+
+        .heading {
+            font-size: 30px;
+           
+        }
+
+        header {
+            display: flex;
+            width: 90%;
+            height: 40%;
+            margin-top: 100px;
+            margin-bottom: 100px;
+            justify-content: space-between;
+            margin-left: 100px;
+
+        }
+
+        button {
+            width: 150px;
+            height: 40px;
+            border-radius: 20px;
+          
+        }
+
+       
+
+        h1 {
+            color: white;
+            ;
+        }
+
+        p {
+            font-size: large;
+            color: white;
+        }
+        @media only screen and(max-width)
+    </style>
+
+</head>
+
+<body>
+    <div class="main">
+        <div class="heading">CODING NEPAL</div>
+        <div>
+            <ul class="list">
+                <li>Home</li>
+                <li>About</li>
+                <li>Service</li>
+                <li>Project</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+    </div>
+    <header>
+        <div class="para">
+            <h1>Top free tool and extension to <br>
+                rapidly grow you business </h1>
+            <br>
+           
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos <br>
+                esse quis blanditiis aliquid reiciendis adipisci cum. Libero <br>
+                asperiores corporis fugiat maiores? Soluta ab culpa fugit<br>
+                repellat asperiores debitis eligendi ea.</p>
+                <br>
+                <br>
+            <button type="button">Read More</button>
+            <button type="button">Contact us</button>
+           
+        </div>
+        <div class="image"><img src="./picture_files/360_F_713358254_pM12hayFvGkMbXwU1wERawwC2Tu3Mfpy.jpg" alt="image" width="600px" height="600px"></div>
+    </header>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body></html>
